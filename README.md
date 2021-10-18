@@ -1,4 +1,4 @@
-# MoneyTransferApp
+
 # Money Transfer App
 1. This application is developed to securely transfer money from one account to another account.
 2. Application can be used to track the incoming and outgoing transaction of the user.

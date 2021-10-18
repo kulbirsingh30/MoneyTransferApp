@@ -1,0 +1,40 @@
+.positive{
+    color : green;
+}
+.negative{
+    color : red;
+}
+.iconlist{
+    width: 100%;
+}
+.txn-container{
+    width: 90%;
+    background-color: #fff;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(245, 244, 244);
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-txn{
+    top: 0%;
+    position: fixed;
+    width: 74%;
+    background: white;
+}
+
+.ic{
+    font-size: 36px;
+    border-right: 1px solid rgb(245, 244, 244);
+    padding: 5px;
+}
+.sv{
+    width: 60px;
+    height: 60px;
+}
+.txn-amt{
+    font-size: 15px;
+    padding: 10px;
+}

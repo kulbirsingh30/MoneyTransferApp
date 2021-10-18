@@ -1,0 +1,38 @@
+.adminnav{
+    width:100%;
+    height: auto;
+    position: fixed;
+    left: 0%;
+    background: linear-gradient(#e66465, #9198e5);
+    z-index: 2;
+}
+
+.adminprofile{
+    border-bottom:1px solid white;
+    height: 10%;
+    padding: 10px;
+}
+
+.adminheading{
+    color: white;
+}
+
+.adminlinkStyle{
+    font-size: 15px;
+}
+
+.adminmarList{
+    width: 100%;
+    text-align: center;
+}
+
+.adminrightNav{
+    display: flex;
+    position: fixed;
+    top: 0%;
+    right : 0%;
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    z-index: 3;
+}

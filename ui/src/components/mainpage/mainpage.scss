@@ -1,0 +1,106 @@
+.im-1{
+    background: url("https://image.freepik.com/free-vector/futuristic-glowing-low-polygonal-credit-card-isolated-dark-blue-background_67515-520.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-flex{
+    background: url("https://www.lantares.com/wp-content/uploads/2021/02/photo-1579621970795-87facc2f976d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.flex-left{
+    background: url("https://image.freepik.com/free-photo/front-view-surface-with-hexagonal-pattern-dark-blue-orange-hexagon-shapes-made-rhombus-shapes-arranged-repeating-pattern-with-blue-grooves_105589-522.jpg");
+    height: 100%;
+}
+.title-app{
+    font-size: 140px;
+    position: absolute;
+    right: 7%;
+    top: 7%;
+    font-weight: 500;
+    color: #554616;
+}
+.wordCarousel {
+    
+    position: absolute;
+    right: 10%;
+    top:35%;
+    font-size: 50px;
+    font-weight: 100;
+    color: #000000;
+    div {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+        li {
+            font-family: Serif;
+            color: white;
+            font-weight: 700;
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+    }
+}
+
+.flipb { animation: flipb 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flipc { animation: flipc 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flipd { animation: flipd 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flipc {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flipd {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+.bt-flx{
+    display: flex;
+    position: absolute;
+    right: 20%;
+    font-size: 40px;
+    top: 50%;
+}
+
+.bt-flx-in{
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    padding: 2px 20px;
+}

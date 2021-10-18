@@ -1,0 +1,35 @@
+.usernav{
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.profile{
+    border-bottom:1px solid white;
+    height: 10%;
+    padding: 10px;
+}
+
+.heading{
+    color: white;
+}
+
+.linkStyle{
+    font-size: 15px;
+}
+.marList{
+    width: 100%;
+    text-align: center;
+}
+
+.rightNav{
+    display: flex;
+    position: fixed;
+    top: 0%;
+    right : 0%;
+    list-style: none;
+    color: black;
+    font-size: 16px;
+}
